@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://samlaw.me/sitemap.xml
