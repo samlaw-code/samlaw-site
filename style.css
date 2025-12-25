@@ -1,28 +1,26 @@
-/* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* Body Styling */
 body {
-  font-family: 'Arial', sans-serif;
+  margin: 25px;
   background-color: #f4f4f9;
-  color: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  text-align: center;
-  padding: 20px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
 }
 
-/* Header Styling */
+/* Header Styling (<h1>) */
 h1 {
   font-size: 35px;
   font-weight: normal;
   margin-top: 5px;
+}
+
+/* Footer Styling */
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.9rem;
+  color: #777;
 }
 
 /* Button Styling */
@@ -41,12 +39,8 @@ button:hover {
   background-color: #2980b9;
 }
 
-/* Footer Styling */
-footer {
-  position: fixed;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.9rem;
-  color: #777;
-}
+/* Applies to all elements with <... class="someclass"> specified. */
+.someclass { color: red; }
+
+/* Applies to the element with <... id="someid"> specified. */
+#someid { color: green; }
