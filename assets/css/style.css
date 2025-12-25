@@ -12,6 +12,16 @@ body {
 }
 
 /* Header Styling */
+.site-header {
+  background-color: #3498db; /* Blue background for header */
+  color: white; /* White text for the name */
+  text-align: center; /* Center the name */
+  padding: 20px 0; /* Add space above and below the name */
+  font-size: 2.5rem; /* Adjust the size of the name */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+/* h1 Styling */
 h1 {
   font-size: 3rem;
   color: #2c3e50;
