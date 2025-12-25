@@ -47,7 +47,7 @@ button:hover {
 
 /* Navbar Styling */
 .navbar {
-  background-color: #333; /* Dark background for the navbar */
+  background-color: #ADD8E6; /* Dark background for the navbar */
   padding: 10px 0; /* Space above and below the navbar */
   text-align: left; /* Align text inside the navbar to the left (doesn’t affect flex) */
   display: flex; /* Flexbox layout to align navbar content */
@@ -65,7 +65,7 @@ button:hover {
 }
 
 .navbar a {
-  color: white; /* White text for the links */
+  color: black; /* White text for the links */
   text-decoration: none; /* Remove underline from links */
   font-size: 1.2rem;
   padding: 10px 15px;
