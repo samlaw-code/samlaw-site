@@ -47,13 +47,15 @@ button:hover {
 .navbar {
   background-color: #333; /* Dark background for the navbar */
   padding: 10px 0; /* Space above and below the navbar */
-  text-align: right; /* Move the navbar content to the right */
+  text-align: left; /* Align text inside the navbar to the left (doesn’t affect flex) */
+  display: flex; /* Flexbox layout to align navbar content */
+  justify-content: flex-end; /* Move the navbar content to the right */
+  margin-right: 20px; /* Add margin to the right for spacing */
 }
 
 .navbar ul {
   list-style-type: none; /* Remove default bullet points */
   display: flex; /* Display list items in a row */
-  justify-content: center; /* Center the items horizontally */
 }
 
 .navbar li {
