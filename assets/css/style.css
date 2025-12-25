@@ -65,7 +65,7 @@ button:hover {
 }
 
 .navbar a {
-  color: black; /* White text for the links */
+  color: black; /* Black text for the links */
   text-decoration: none; /* Remove underline from links */
   font-size: 1.2rem;
   padding: 10px 15px;
