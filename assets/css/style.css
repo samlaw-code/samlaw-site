@@ -50,9 +50,9 @@ button:hover {
   background-color: #ADD8E6; /* Dark background for the navbar */
   padding: 10px 0; /* Space above and below the navbar */
   display: flex; /* Flexbox layout to align navbar content */
-  justify-content: flex-start; /* Align items starting from the left */
+  justify-content: flex-end; /* Move the navbar content to the right */
   width: 100%; /* Ensure the navbar spans the full width of the page */
-  margin-left: auto; /* Push the navbar to the right */
+  float: right;
 }
 
 .navbar ul {
