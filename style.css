@@ -7,10 +7,15 @@
 
 /* Body Styling */
 body {
-  margin: 25px;
-  background-color: rgb(240,240,240);
-  font-family: arial, sans-serif;
-  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
 }
 
 /* Header Styling */
