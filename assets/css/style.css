@@ -17,6 +17,16 @@ h1 {
   margin-bottom: 20px;  /* Add some space below the header */
 }
 
+/* Footer Styling */
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.9rem;
+  color: #777;
+}
+
 /* Button Styling */
 button {
   background-color: #3498db;
@@ -33,14 +43,34 @@ button:hover {
   background-color: #2980b9;
 }
 
-/* Footer Styling */
-footer {
-  position: fixed;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.9rem;
-  color: #777;
+/* Navbar Styling */
+.navbar {
+  background-color: #333; /* Dark background for the navbar */
+  padding: 10px 0; /* Space above and below the navbar */
+  text-align: center; /* Center the navbar content */
+}
+
+.navbar ul {
+  list-style-type: none; /* Remove default bullet points */
+  display: flex; /* Display list items in a row */
+  justify-content: center; /* Center the items horizontally */
+}
+
+.navbar li {
+  margin: 0 15px; /* Space between the links */
+}
+
+.navbar a {
+  color: white; /* White text for the links */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #3498db; /* Blue background on hover */
+  border-radius: 5px; /* Rounded corners on hover */
 }
 
 /* Applies to all elements with <... class="someclass"> specified. */
