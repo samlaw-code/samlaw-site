@@ -23,9 +23,15 @@ body {
 }
 
 .site-header a {
-  display: inline-block; /* Makes sure it doesn't take up the full width of the header */
   text-decoration: none; /* Removes the underline */
   color: inherit; /* Keeps the text color the same as the header text color */
+}
+
+/* Make sure the <h1> inside the header is left-aligned */
+.site-header h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 2.5rem; /* Adjust the size if needed */
+  text-align: left; /* Ensure left-alignment */
 }
 
 /* h1 Styling */
