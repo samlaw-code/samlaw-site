@@ -21,6 +21,28 @@
     </nav>
 	
   <h1>Hello World from Sam Law</h1>
+  <h1 id="welcome-message"></h1>
+  <script>
+    // Get the current time (in hours)
+    const currentHour = new Date().getHours();
+
+    // Get the element to display the welcome message
+    const welcomeMessageElement = document.getElementById('welcome-message');
+
+    // Determine the message based on the current time
+    let message = '';
+
+    if (currentHour >= 5 && currentHour < 12) {
+      message = 'Good Morning!';
+    } else if (currentHour >= 12 && currentHour < 18) {
+      message = 'Good Afternoon!';
+    } else {
+      message = 'Good Evening!';
+    }
+
+    // Set the message to the h1 element
+    welcomeMessageElement.textContent = message;
+  </script>
   <p>This is my first Cloudflare Pages site.</p>
   Changelog so far:
   <ul>
