@@ -29,7 +29,7 @@
 
 /* Footer Styling */
 footer {
-  position: fixed;
+  position: relative;
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
@@ -60,11 +60,17 @@ button:hover {
   display: flex; /* Flexbox layout to align navbar content */
   justify-content: flex-end; /* Align the navbar items to the right */
   width: 100%; /* Ensure the navbar takes full width */
+  flex-wrap: wrap; /* Ensure the navbar items wrap on small screens */
 }
 
 .navbar ul {
   list-style-type: none; /* Remove default bullet points */
   display: flex; /* Display list items in a row */
+  flex-wrap: wrap;
+  justify-content: center; /* Center the navbar items */
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar li {
@@ -104,6 +110,11 @@ body {
 
 /* Applies to the element with <... id="someid"> specified. */
 #someid { color: green; }
+
+/* Global box-sizing for all elements */
+* {
+  box-sizing: border-box;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
