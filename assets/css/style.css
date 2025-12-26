@@ -92,11 +92,8 @@ body {
   background-color: #f4f4f9;
   color: #333;
   padding: 20px;
-  display: flex;
-  flex-direction: column;  /* Stack content vertically */
-  align-items: center;     /* Center content horizontally */
   width: 100%; /* Ensure body is full width */
-  margin: 0; /* Remove any default margin */
+  text-align: left;
 }
 
 /* Applies to all elements with <... class="someclass"> specified. */
