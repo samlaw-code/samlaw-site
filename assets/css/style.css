@@ -84,6 +84,11 @@ button:hover {
   border-radius: 5px; /* Rounded corners on hover */
 }
 
+/* Global box-sizing for all elements */
+* {
+  box-sizing: border-box;
+}
+
 /* Body Styling */
 body {
   font-family: 'Arial', sans-serif;
