@@ -3,7 +3,7 @@
   background-color: transparent; /* Transparent background */
   color: black; /* Black text for the name */
   text-align: left !important; /* Align the text to the left */
-  padding: 20px 0; /* Add space above and below the name */
+  padding: 10px 0; /* Add space above and below the name */
   font-size: 1.5rem; /* Adjust the size of the name */
   margin-bottom: 20px; /* Space below the header */
   padding-left: 20px; /* Add space to the left for a nice margin */
