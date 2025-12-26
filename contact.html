@@ -29,7 +29,7 @@
 	
 	<div class="cf-turnstile" data-sitekey="0x4AAAAAACJNtIplUqUseCu5" data-preclearance="true"></div>
 
-    <button type="submit">Send Message</button>
+    <button type="submit" id="submit-btn" disabled>Send Message</button>
   </form>
   
   <p>This is the contact page with some placeholder text.</p>
@@ -37,15 +37,16 @@
   <script src="/assets/js/header.js"></script>
   
   <script>
-    document.getElementById("contact-form").addEventListener("submit", function(event) {
-      // Check if CAPTCHA has been completed
-      const captchaResponse = document.querySelector('.cf-turnstile').getAttribute('data-response');
-      
-      if (!captchaResponse) {
-        // If CAPTCHA is not completed, prevent form submission
-        alert("Please complete the CAPTCHA before submitting the form.");
-        event.preventDefault(); // Prevent form submission
-      }
+    // Listen for Turnstile verification
+    window.addEventListener('load', function() {
+        // Get the submit button
+        const submitBtn = document.getElementById('submit-btn');
+        
+        // Check if CAPTCHA has been successfully completed
+        window.turnstile.addEventListener('verified', function() {
+            // Enable the submit button once the CAPTCHA is verified
+            submitBtn.disabled = false;
+        });
     });
   </script>
 </body>
