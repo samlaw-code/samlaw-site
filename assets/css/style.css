@@ -58,7 +58,7 @@ button:hover {
   background-color: #ADD8E6; /* Light background for the navbar */
   padding: 3px 0; /* Space above and below the navbar */
   display: flex; /* Flexbox layout to align navbar content */
-  justify-content: flex-end; /* Align the navbar items to the right */
+  justify-content: space-between;
   width: 100%; /* Ensure the navbar takes full width */
   flex-wrap: wrap; /* Ensure the navbar items wrap on small screens */
 }
@@ -133,5 +133,15 @@ body {
 
   .navbar a {
     padding: 8px 20px; /* Increase padding slightly for better touch targets */
+  }
+  
+  button {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+  
+  /* Reduce text size of some elements for small mobile screens */
+  body {
+    font-size: 0.9rem;
   }
 }
