@@ -22,6 +22,11 @@ body {
   padding-left: 20px; /* Add space to the left for a nice margin */
 }
 
+.site-header a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Keeps the text color the same as the header text color */
+}
+
 /* h1 Styling */
 h1 {
   font-size: 3rem;

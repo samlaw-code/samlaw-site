@@ -4,6 +4,6 @@
 fetch('/header.html')
     .then(response => response.text())
     .then(data => {
-        document.getElementById('header-placeholder').innerHTML = data;
+        document.getElementById('header-text').innerHTML = data;
     })
     .catch(err => console.error("Error loading header: ", err));
