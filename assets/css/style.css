@@ -104,3 +104,23 @@ body {
 
 /* Applies to the element with <... id="someid"> specified. */
 #someid { color: green; }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 5px 0; /* Reduce padding for smaller screens */
+  }
+
+  .navbar ul {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center; /* Center-align the navbar items */
+  }
+
+  .navbar li {
+    margin: 5px 0; /* Adjust space between items vertically */
+  }
+
+  .navbar a {
+    padding: 8px 20px; /* Increase padding slightly for better touch targets */
+  }
+}
