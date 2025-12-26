@@ -14,19 +14,11 @@
   color: inherit; /* Keeps the text color the same as the header text color */
 }
 
-/* Make sure the <h1> inside the header is left-aligned */
 .site-header h1 {
   margin: 0; /* Remove default margin */
-  font-size: 2.5rem; /* Adjust the size if needed */
+  font-size: 2.5rem; /* Match the header size */
   text-align: left; /* Ensure left-alignment */
-}
-
-/* h1 Styling */
-h1 {
-  font-size: 3rem;
-  color: #2c3e50;
-  margin-top: 0;  /* Make sure there's no space above the header */
-  margin-bottom: 20px;  /* Add some space below the header */
+  color: inherit; /* Inherit the color of the parent (black in this case) */
 }
 
 /* Footer Styling */
