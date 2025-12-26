@@ -35,5 +35,18 @@
   <p>This is the contact page with some placeholder text.</p>
   <a href="../">Back to Home</a>
   <script src="/assets/js/header.js"></script>
+  
+  <script>
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+      // Check if CAPTCHA has been completed
+      const captchaResponse = document.querySelector('.cf-turnstile').getAttribute('data-response');
+      
+      if (!captchaResponse) {
+        // If CAPTCHA is not completed, prevent form submission
+        alert("Please complete the CAPTCHA before submitting the form.");
+        event.preventDefault(); // Prevent form submission
+      }
+    });
+  </script>
 </body>
 </html>
