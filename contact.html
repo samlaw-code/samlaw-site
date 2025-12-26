@@ -11,6 +11,24 @@
   <div id="header-text"></div>
   
   <h1>Contact Me</h1>
+  
+  <!-- Contact Form -->
+  <form id="contact-form" action="/submit-form" method="POST">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+  
   <p>This is the contact page with some placeholder text.</p>
   <a href="../">Back to Home</a>
   <script src="/assets/js/header.js"></script>
