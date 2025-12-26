@@ -19,7 +19,7 @@
 
 .site-header h1 {
   margin: 0; /* Remove default margin */
-  font-size: 2rem; /* Match the header size */
+  font-size: 1.5rem; /* Match the header size */
   text-align: left; /* Ensure left-alignment */
   color: inherit; /* Inherit the color of the parent (black in this case) */
 }
