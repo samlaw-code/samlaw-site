@@ -55,7 +55,7 @@ button:hover {
 /* Navbar Styling */
 .navbar {
   background-color: #ADD8E6; /* Light background for the navbar */
-  padding: 10px 0; /* Space above and below the navbar */
+  padding: 5px 0; /* Space above and below the navbar */
   display: flex; /* Flexbox layout to align navbar content */
   justify-content: flex-end; /* Align the navbar items to the right */
   width: 100%; /* Ensure the navbar takes full width */
@@ -73,8 +73,8 @@ button:hover {
 .navbar a {
   color: black; /* Black text for the links */
   text-decoration: none; /* Remove underline from links */
-  font-size: 1.2rem;
-  padding: 10px 15px;
+  font-size: 1rem;
+  padding: 6px 15px;
   transition: background-color 0.3s ease;
 }
 
