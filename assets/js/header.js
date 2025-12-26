@@ -1,4 +1,4 @@
-// /assets/js/main.js
+// /assets/js/header.js
 
 // Function to load the header content dynamically
 fetch('/header.html')
