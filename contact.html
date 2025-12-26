@@ -36,27 +36,5 @@
   <a href="../">Back to Home</a>
   <script src="/assets/js/header.js"></script>
   
-  <!-- Add JavaScript to enable/disable the button based on CAPTCHA state -->
-  <script>
-    // Wait for the Turnstile API to load
-    window.onload = function() {
-        const submitBtn = document.getElementById('submit-btn');
-        
-        // Function to enable the button when CAPTCHA is validated
-        function onCaptchaVerified() {
-            submitBtn.disabled = false;  // Enable the button
-        }
-
-        // Initialize Turnstile API and listen for the 'turnstile' event
-        const captcha = document.querySelector('.cf-turnstile');
-        
-        // Add the callback to be called when CAPTCHA is completed
-        captcha.addEventListener('turnstile:verify', function(event) {
-            if (event.detail && event.detail.success) {
-                onCaptchaVerified();
-            }
-        });
-    };
-  </script>
 </body>
 </html>
