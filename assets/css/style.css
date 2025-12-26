@@ -23,6 +23,7 @@ body {
 }
 
 .site-header a {
+  display: inline-block; /* Makes sure it doesn't take up the full width of the header */
   text-decoration: none; /* Removes the underline */
   color: inherit; /* Keeps the text color the same as the header text color */
 }
