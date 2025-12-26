@@ -2,7 +2,7 @@
 .site-header {
   background-color: transparent; /* Transparent background */
   color: black; /* Black text for the name */
-  text-align: left; /* Align the text to the left */
+  text-align: left !important; /* Align the text to the left */
   padding: 20px 0; /* Add space above and below the name */
   font-size: 2.5rem; /* Adjust the size of the name */
   margin-bottom: 20px; /* Space below the header */
@@ -19,6 +19,11 @@
   font-size: 2.5rem; /* Match the header size */
   text-align: left; /* Ensure left-alignment */
   color: inherit; /* Inherit the color of the parent (black in this case) */
+}
+
+#header-text {
+  text-align: left; /* Ensure content is aligned left */
+  width: 100%; /* Make sure it takes up the full width */
 }
 
 /* Footer Styling */
